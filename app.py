@@ -5,7 +5,7 @@ import os
 
 # Load environment variables
 load_dotenv()
-api_key = st.secrets["GEMINI_API_KEY"]
+api_key = st.secrets["OPENAI_API_KEY"]
 
 
 # Configure the Gemini API
